@@ -1,0 +1,221 @@
+{
+  "address": "0x28593f2Df8D92Dd7d476B26bC45d683D748a11eC",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_employee",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_start",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_end",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "attend",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "attendanceLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "attendancePercentage",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "employee",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "end",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "isAttend",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "start",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xd1f54ca59d3322088f9fe5dd752595faff5f5f8299d0225bbcab2f54767220a1",
+  "receipt": {
+    "to": null,
+    "from": "0x0C2856Da7BD66329d5Db6255Ed9268d7b4689EF7",
+    "contractAddress": "0x28593f2Df8D92Dd7d476B26bC45d683D748a11eC",
+    "transactionIndex": 0,
+    "gasUsed": "345552",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x0d8173495702efaa8e69088eb2b535a60319890c810e57943f6832f3c8ff8139",
+    "transactionHash": "0xd1f54ca59d3322088f9fe5dd752595faff5f5f8299d0225bbcab2f54767220a1",
+    "logs": [],
+    "blockNumber": 2,
+    "cumulativeGasUsed": "345552",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xfd83F6DEA1A18F9cbB1744cF0a45F962F2DeF93B",
+    1696471200,
+    1696482000
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "dcaa8a4f5935b9155d29b92107ca5295",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_employee\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_start\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_end\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attend\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"attendanceLength\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"attendancePercentage\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"employee\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"end\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"isAttend\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"start\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Contract4October/AttendanceBook.sol\":\"AttendanceBook\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Contract4October/AttendanceBook.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.13;\\n\\nimport './interface/IEmployee.sol';\\n\\ncontract AttendanceBook {\\n    uint256 public start; // format epoch, satuan dalam detik\\n    uint256 public end;\\n    uint256 public attendanceLength;\\n    address public employee;\\n\\n    mapping(address => bool) public isAttend;\\n\\n    modifier onlyEmployee() {\\n        require(\\n            IEmployee(employee).isEmployeeExist(msg.sender),\\n            'not an employee'\\n        );\\n        _;\\n    }\\n\\n    constructor(address _employee, uint256 _start, uint256 _end) {\\n        employee = _employee;\\n        start = _start;\\n        end = _end;\\n    }\\n\\n    function attend() external onlyEmployee {\\n        require(\\n            block.timestamp > start && block.timestamp < end,\\n            'not in datetime range'\\n        );\\n        isAttend[msg.sender] = true;\\n        attendanceLength += 1;\\n    }\\n\\n    function attendancePercentage() external view returns (uint256) {\\n        uint256 totalEmployee = IEmployee(employee).employeeLength();\\n\\n        return (attendanceLength * 100) / totalEmployee;\\n    }\\n}\\n\",\"keccak256\":\"0xb73e9298bc33ace7adde2fe223f4f1be2de697a689b22dfbb503d5fc6fc359c7\",\"license\":\"MIT\"},\"contracts/Contract4October/interface/IEmployee.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.13;\\n\\ninterface IEmployee {\\n    function employeeLength() external view returns (uint256);\\n\\n    function isEmployeeExist(address _employee) external view returns (bool);\\n\\n    function addEmployee(\\n        address _employee,\\n        string calldata _name,\\n        string calldata _position\\n    ) external;\\n}\\n\",\"keccak256\":\"0x1cc71516e933b8cd04306351b1dee5b7012e2b5062135fe98b3729a245352afb\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516104b53803806104b583398101604081905261002f9161005b565b600380546001600160a01b0319166001600160a01b03949094169390931790925560005560015561009e565b60008060006060848603121561007057600080fd5b83516001600160a01b038116811461008757600080fd5b602085015160409095015190969495509392505050565b610408806100ad6000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c8063b699eda51161005b578063b699eda5146100fc578063be9a655514610104578063d72c55771461010d578063efbe1c1c1461011757600080fd5b806350f6461b146100825780638000d7561461009e578063a0a1a7d7146100d1575b600080fd5b61008b60025481565b6040519081526020015b60405180910390f35b6100c16100ac3660046102f8565b60046020526000908152604090205460ff1681565b6040519015158152602001610095565b6003546100e4906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b61008b610120565b61008b60005481565b6101156101bc565b005b61008b60015481565b600080600360009054906101000a90046001600160a01b03166001600160a01b03166353b8f3816040518163ffffffff1660e01b8152600401602060405180830381865afa158015610176573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061019a9190610328565b90508060025460646101ac9190610357565b6101b69190610376565b91505090565b6003546040516301aca80960e51b81523360048201526001600160a01b0390911690633595012090602401602060405180830381865afa158015610204573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102289190610398565b61026b5760405162461bcd60e51b815260206004820152600f60248201526e6e6f7420616e20656d706c6f79656560881b60448201526064015b60405180910390fd5b6000544211801561027d575060015442105b6102c15760405162461bcd60e51b81526020600482015260156024820152746e6f7420696e206461746574696d652072616e676560581b6044820152606401610262565b336000908152600460205260408120805460ff1916600190811790915560028054919290916102f19084906103ba565b9091555050565b60006020828403121561030a57600080fd5b81356001600160a01b038116811461032157600080fd5b9392505050565b60006020828403121561033a57600080fd5b5051919050565b634e487b7160e01b600052601160045260246000fd5b600081600019048311821515161561037157610371610341565b500290565b60008261039357634e487b7160e01b600052601260045260246000fd5b500490565b6000602082840312156103aa57600080fd5b8151801515811461032157600080fd5b600082198211156103cd576103cd610341565b50019056fea26469706673582212206d52a69430dba705a0c21b214f0a336acfc403e7b49c5ba34b026ea29a34828464736f6c634300080d0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c8063b699eda51161005b578063b699eda5146100fc578063be9a655514610104578063d72c55771461010d578063efbe1c1c1461011757600080fd5b806350f6461b146100825780638000d7561461009e578063a0a1a7d7146100d1575b600080fd5b61008b60025481565b6040519081526020015b60405180910390f35b6100c16100ac3660046102f8565b60046020526000908152604090205460ff1681565b6040519015158152602001610095565b6003546100e4906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b61008b610120565b61008b60005481565b6101156101bc565b005b61008b60015481565b600080600360009054906101000a90046001600160a01b03166001600160a01b03166353b8f3816040518163ffffffff1660e01b8152600401602060405180830381865afa158015610176573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061019a9190610328565b90508060025460646101ac9190610357565b6101b69190610376565b91505090565b6003546040516301aca80960e51b81523360048201526001600160a01b0390911690633595012090602401602060405180830381865afa158015610204573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102289190610398565b61026b5760405162461bcd60e51b815260206004820152600f60248201526e6e6f7420616e20656d706c6f79656560881b60448201526064015b60405180910390fd5b6000544211801561027d575060015442105b6102c15760405162461bcd60e51b81526020600482015260156024820152746e6f7420696e206461746574696d652072616e676560581b6044820152606401610262565b336000908152600460205260408120805460ff1916600190811790915560028054919290916102f19084906103ba565b9091555050565b60006020828403121561030a57600080fd5b81356001600160a01b038116811461032157600080fd5b9392505050565b60006020828403121561033a57600080fd5b5051919050565b634e487b7160e01b600052601160045260246000fd5b600081600019048311821515161561037157610371610341565b500290565b60008261039357634e487b7160e01b600052601260045260246000fd5b500490565b6000602082840312156103aa57600080fd5b8151801515811461032157600080fd5b600082198211156103cd576103cd610341565b50019056fea26469706673582212206d52a69430dba705a0c21b214f0a336acfc403e7b49c5ba34b026ea29a34828464736f6c634300080d0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4,
+        "contract": "contracts/Contract4October/AttendanceBook.sol:AttendanceBook",
+        "label": "start",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 6,
+        "contract": "contracts/Contract4October/AttendanceBook.sol:AttendanceBook",
+        "label": "end",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 8,
+        "contract": "contracts/Contract4October/AttendanceBook.sol:AttendanceBook",
+        "label": "attendanceLength",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 10,
+        "contract": "contracts/Contract4October/AttendanceBook.sol:AttendanceBook",
+        "label": "employee",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_address"
+      },
+      {
+        "astId": 14,
+        "contract": "contracts/Contract4October/AttendanceBook.sol:AttendanceBook",
+        "label": "isAttend",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_mapping(t_address,t_bool)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

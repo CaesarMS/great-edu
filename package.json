@@ -7,7 +7,11 @@
   "license": "MIT",
   "scripts": {
     "compile": "npx hardhat compile",
-    "clean": "npx hardhat clean"
+    "clean": "npx hardhat clean",
+    "deploy": "npx hardhat deploy",
+    "simulate": "npx hardhat node",
+    "script": "npx hardhat run",
+    "test": "npx hardhat test"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

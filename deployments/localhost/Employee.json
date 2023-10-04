@@ -1,0 +1,319 @@
+{
+  "address": "0xfd83F6DEA1A18F9cbB1744cF0a45F962F2DeF93B",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_employee",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_position",
+          "type": "string"
+        }
+      ],
+      "name": "addEmployee",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "employeeDetail",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "employeeIndex",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "position",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "employeeLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "employees",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_employee",
+          "type": "address"
+        }
+      ],
+      "name": "isEmployeeExist",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_employee",
+          "type": "address"
+        }
+      ],
+      "name": "removeEmployee",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x75e73cb2b1110d7f812a497a53300530869d686215f74dab3a125c8d2ab7b5f8",
+  "receipt": {
+    "to": null,
+    "from": "0x0C2856Da7BD66329d5Db6255Ed9268d7b4689EF7",
+    "contractAddress": "0xfd83F6DEA1A18F9cbB1744cF0a45F962F2DeF93B",
+    "transactionIndex": 0,
+    "gasUsed": "645129",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000004000000000000000000000000004000000000000000000000000000000000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000040000000000000000000000000000000000000000000000800000000000000000000000040020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x15db8a91c467ce744b000d4b8d7c325a54e7239f760da1cfa00bb72e81f48b50",
+    "transactionHash": "0x75e73cb2b1110d7f812a497a53300530869d686215f74dab3a125c8d2ab7b5f8",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 1,
+        "transactionHash": "0x75e73cb2b1110d7f812a497a53300530869d686215f74dab3a125c8d2ab7b5f8",
+        "address": "0xfd83F6DEA1A18F9cbB1744cF0a45F962F2DeF93B",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000000c2856da7bd66329d5db6255ed9268d7b4689ef7"
+        ],
+        "data": "0x",
+        "logIndex": 0,
+        "blockHash": "0x15db8a91c467ce744b000d4b8d7c325a54e7239f760da1cfa00bb72e81f48b50"
+      }
+    ],
+    "blockNumber": 1,
+    "cumulativeGasUsed": "645129",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "cea87c4259b85af2e724169073c2477e",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_employee\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_position\",\"type\":\"string\"}],\"name\":\"addEmployee\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"employeeDetail\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"employeeIndex\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"position\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"employeeLength\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"employees\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_employee\",\"type\":\"address\"}],\"name\":\"isEmployeeExist\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_employee\",\"type\":\"address\"}],\"name\":\"removeEmployee\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.\"},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Contract4October/Employee.sol\":\"Employee\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.9.0) (access/Ownable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _transferOwnership(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        _checkOwner();\\n        _;\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if the sender is not the owner.\\n     */\\n    function _checkOwner() internal view virtual {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby disabling any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _transferOwnership(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _transferOwnership(newOwner);\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Internal function without access restriction.\\n     */\\n    function _transferOwnership(address newOwner) internal virtual {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0xba43b97fba0d32eb4254f6a5a297b39a19a247082a02d6e69349e071e2946218\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\"},\"contracts/Contract4October/Employee.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.13;\\n\\nimport '@openzeppelin/contracts/access/Ownable.sol';\\nimport './interface/IEmployee.sol';\\n\\ncontract Employee is Ownable, IEmployee {\\n    struct Detail {\\n        uint256 employeeIndex;\\n        string name;\\n        string position;\\n    }\\n    mapping(address => Detail) public employeeDetail;\\n    address[] public employees;\\n\\n    function employeeLength() public view override returns (uint256) {\\n        return employees.length;\\n    }\\n\\n    function addEmployee(\\n        address _employee,\\n        string calldata _name,\\n        string calldata _position\\n    ) external override onlyOwner {\\n        employeeDetail[_employee] = Detail({\\n            employeeIndex: employeeLength(),\\n            name: _name,\\n            position: _position\\n        });\\n        employees.push(_employee);\\n    }\\n\\n    function isEmployeeExist(\\n        address _employee\\n    ) public view override returns (bool) {\\n        if (employeeLength() == 0) return false;\\n\\n        uint256 index = employeeDetail[_employee].employeeIndex;\\n\\n        return employees[index] == _employee;\\n    }\\n\\n    function removeEmployee(address _employee) external onlyOwner {\\n        require(isEmployeeExist(_employee), 'not found');\\n\\n        uint256 indexToRemove = employeeDetail[_employee].employeeIndex;\\n        address employeeToMove = employees[employeeLength() - 1];\\n\\n        employees[indexToRemove] = employeeToMove;\\n        employeeDetail[employeeToMove].employeeIndex = indexToRemove;\\n\\n        delete employeeDetail[_employee];\\n        employees.pop();\\n    }\\n}\\n\",\"keccak256\":\"0x9e8a94c81256cc09fd04d49a5869da2a91eed355768fcb8ab0541bd262abceaa\",\"license\":\"MIT\"},\"contracts/Contract4October/interface/IEmployee.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.13;\\n\\ninterface IEmployee {\\n    function employeeLength() external view returns (uint256);\\n\\n    function isEmployeeExist(address _employee) external view returns (bool);\\n\\n    function addEmployee(\\n        address _employee,\\n        string calldata _name,\\n        string calldata _position\\n    ) external;\\n}\\n\",\"keccak256\":\"0x1cc71516e933b8cd04306351b1dee5b7012e2b5062135fe98b3729a245352afb\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061001a3361001f565b61006f565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b610a408061007e6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c8063715018a611610066578063715018a6146101225780638da5cb5b1461012c578063d108177a1461013d578063e63a261514610150578063f2fde38b1461016357600080fd5b80632158864b1461009857806335950120146100c35780634739326b146100e657806353b8f38114610111575b600080fd5b6100ab6100a63660046107f8565b610176565b6040516100ba93929190610867565b60405180910390f35b6100d66100d13660046107f8565b6102a8565b60405190151581526020016100ba565b6100f96100f436600461089c565b61030f565b6040516001600160a01b0390911681526020016100ba565b6002546040519081526020016100ba565b61012a610339565b005b6000546001600160a01b03166100f9565b61012a61014b3660046107f8565b61034d565b61012a61015e3660046108fe565b6104a8565b61012a6101713660046107f8565b6105e6565b6001602081905260009182526040909120805491810180546101979061097f565b80601f01602080910402602001604051908101604052809291908181526020018280546101c39061097f565b80156102105780601f106101e557610100808354040283529160200191610210565b820191906000526020600020905b8154815290600101906020018083116101f357829003601f168201915b5050505050908060020180546102259061097f565b80601f01602080910402602001604051908101604052809291908181526020018280546102519061097f565b801561029e5780601f106102735761010080835404028352916020019161029e565b820191906000526020600020905b81548152906001019060200180831161028157829003601f168201915b5050505050905083565b60006102b360025490565b6000036102c257506000919050565b6001600160a01b03821660008181526001602052604090205460028054919291839081106102f2576102f26109b9565b6000918252602090912001546001600160a01b0316149392505050565b6002818154811061031f57600080fd5b6000918252602090912001546001600160a01b0316905081565b61034161065f565b61034b60006106b9565b565b61035561065f565b61035e816102a8565b61039b5760405162461bcd60e51b81526020600482015260096024820152681b9bdd08199bdd5b9960ba1b60448201526064015b60405180910390fd5b6001600160a01b038116600090815260016020819052604082205491906002906103c460025490565b6103ce91906109cf565b815481106103de576103de6109b9565b600091825260209091200154600280546001600160a01b03909216925082918490811061040d5761040d6109b9565b600091825260208083209190910180546001600160a01b0319166001600160a01b039485161790558383168252600190819052604080832086905592861682529181208181559161046090830182610709565b61046e600283016000610709565b50506002805480610481576104816109f4565b600082815260209020810160001990810180546001600160a01b0319169055019055505050565b6104b061065f565b60405180606001604052806104c460025490565b815260200185858080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250505090825250604080516020601f86018190048102820181019092528481529181019190859085908190840183828082843760009201829052509390945250506001600160a01b03881681526001602081815260409092208451815584830151805191945061057093928501920190610743565b506040820151805161058c916002840191602090910190610743565b5050600280546001810182556000919091527f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0397909716969096179095555050505050565b6105ee61065f565b6001600160a01b0381166106535760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610392565b61065c816106b9565b50565b6000546001600160a01b0316331461034b5760405162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726044820152606401610392565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b5080546107159061097f565b6000825580601f10610725575050565b601f01602090049060005260206000209081019061065c91906107c7565b82805461074f9061097f565b90600052602060002090601f01602090048101928261077157600085556107b7565b82601f1061078a57805160ff19168380011785556107b7565b828001600101855582156107b7579182015b828111156107b757825182559160200191906001019061079c565b506107c39291506107c7565b5090565b5b808211156107c357600081556001016107c8565b80356001600160a01b03811681146107f357600080fd5b919050565b60006020828403121561080a57600080fd5b610813826107dc565b9392505050565b6000815180845260005b8181101561084057602081850181015186830182015201610824565b81811115610852576000602083870101525b50601f01601f19169290920160200192915050565b838152606060208201526000610880606083018561081a565b8281036040840152610892818561081a565b9695505050505050565b6000602082840312156108ae57600080fd5b5035919050565b60008083601f8401126108c757600080fd5b50813567ffffffffffffffff8111156108df57600080fd5b6020830191508360208285010111156108f757600080fd5b9250929050565b60008060008060006060868803121561091657600080fd5b61091f866107dc565b9450602086013567ffffffffffffffff8082111561093c57600080fd5b61094889838a016108b5565b9096509450604088013591508082111561096157600080fd5b5061096e888289016108b5565b969995985093965092949392505050565b600181811c9082168061099357607f821691505b6020821081036109b357634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052603260045260246000fd5b6000828210156109ef57634e487b7160e01b600052601160045260246000fd5b500390565b634e487b7160e01b600052603160045260246000fdfea2646970667358221220093e63426f75af90dd4374dc9a948dbb7b4d9503076ab4b48704b4b38c50529864736f6c634300080d0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c8063715018a611610066578063715018a6146101225780638da5cb5b1461012c578063d108177a1461013d578063e63a261514610150578063f2fde38b1461016357600080fd5b80632158864b1461009857806335950120146100c35780634739326b146100e657806353b8f38114610111575b600080fd5b6100ab6100a63660046107f8565b610176565b6040516100ba93929190610867565b60405180910390f35b6100d66100d13660046107f8565b6102a8565b60405190151581526020016100ba565b6100f96100f436600461089c565b61030f565b6040516001600160a01b0390911681526020016100ba565b6002546040519081526020016100ba565b61012a610339565b005b6000546001600160a01b03166100f9565b61012a61014b3660046107f8565b61034d565b61012a61015e3660046108fe565b6104a8565b61012a6101713660046107f8565b6105e6565b6001602081905260009182526040909120805491810180546101979061097f565b80601f01602080910402602001604051908101604052809291908181526020018280546101c39061097f565b80156102105780601f106101e557610100808354040283529160200191610210565b820191906000526020600020905b8154815290600101906020018083116101f357829003601f168201915b5050505050908060020180546102259061097f565b80601f01602080910402602001604051908101604052809291908181526020018280546102519061097f565b801561029e5780601f106102735761010080835404028352916020019161029e565b820191906000526020600020905b81548152906001019060200180831161028157829003601f168201915b5050505050905083565b60006102b360025490565b6000036102c257506000919050565b6001600160a01b03821660008181526001602052604090205460028054919291839081106102f2576102f26109b9565b6000918252602090912001546001600160a01b0316149392505050565b6002818154811061031f57600080fd5b6000918252602090912001546001600160a01b0316905081565b61034161065f565b61034b60006106b9565b565b61035561065f565b61035e816102a8565b61039b5760405162461bcd60e51b81526020600482015260096024820152681b9bdd08199bdd5b9960ba1b60448201526064015b60405180910390fd5b6001600160a01b038116600090815260016020819052604082205491906002906103c460025490565b6103ce91906109cf565b815481106103de576103de6109b9565b600091825260209091200154600280546001600160a01b03909216925082918490811061040d5761040d6109b9565b600091825260208083209190910180546001600160a01b0319166001600160a01b039485161790558383168252600190819052604080832086905592861682529181208181559161046090830182610709565b61046e600283016000610709565b50506002805480610481576104816109f4565b600082815260209020810160001990810180546001600160a01b0319169055019055505050565b6104b061065f565b60405180606001604052806104c460025490565b815260200185858080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250505090825250604080516020601f86018190048102820181019092528481529181019190859085908190840183828082843760009201829052509390945250506001600160a01b03881681526001602081815260409092208451815584830151805191945061057093928501920190610743565b506040820151805161058c916002840191602090910190610743565b5050600280546001810182556000919091527f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0397909716969096179095555050505050565b6105ee61065f565b6001600160a01b0381166106535760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b6064820152608401610392565b61065c816106b9565b50565b6000546001600160a01b0316331461034b5760405162461bcd60e51b815260206004820181905260248201527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726044820152606401610392565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b5080546107159061097f565b6000825580601f10610725575050565b601f01602090049060005260206000209081019061065c91906107c7565b82805461074f9061097f565b90600052602060002090601f01602090048101928261077157600085556107b7565b82601f1061078a57805160ff19168380011785556107b7565b828001600101855582156107b7579182015b828111156107b757825182559160200191906001019061079c565b506107c39291506107c7565b5090565b5b808211156107c357600081556001016107c8565b80356001600160a01b03811681146107f357600080fd5b919050565b60006020828403121561080a57600080fd5b610813826107dc565b9392505050565b6000815180845260005b8181101561084057602081850181015186830182015201610824565b81811115610852576000602083870101525b50601f01601f19169290920160200192915050565b838152606060208201526000610880606083018561081a565b8281036040840152610892818561081a565b9695505050505050565b6000602082840312156108ae57600080fd5b5035919050565b60008083601f8401126108c757600080fd5b50813567ffffffffffffffff8111156108df57600080fd5b6020830191508360208285010111156108f757600080fd5b9250929050565b60008060008060006060868803121561091657600080fd5b61091f866107dc565b9450602086013567ffffffffffffffff8082111561093c57600080fd5b61094889838a016108b5565b9096509450604088013591508082111561096157600080fd5b5061096e888289016108b5565b969995985093965092949392505050565b600181811c9082168061099357607f821691505b6020821081036109b357634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052603260045260246000fd5b6000828210156109ef57634e487b7160e01b600052601160045260246000fd5b500390565b634e487b7160e01b600052603160045260246000fdfea2646970667358221220093e63426f75af90dd4374dc9a948dbb7b4d9503076ab4b48704b4b38c50529864736f6c634300080d0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner."
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 7,
+        "contract": "contracts/Contract4October/Employee.sol:Employee",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 906,
+        "contract": "contracts/Contract4October/Employee.sol:Employee",
+        "label": "employeeDetail",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_struct(Detail)901_storage)"
+      },
+      {
+        "astId": 909,
+        "contract": "contracts/Contract4October/Employee.sol:Employee",
+        "label": "employees",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_array(t_address)dyn_storage"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_address)dyn_storage": {
+        "base": "t_address",
+        "encoding": "dynamic_array",
+        "label": "address[]",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_struct(Detail)901_storage)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => struct Employee.Detail)",
+        "numberOfBytes": "32",
+        "value": "t_struct(Detail)901_storage"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_struct(Detail)901_storage": {
+        "encoding": "inplace",
+        "label": "struct Employee.Detail",
+        "members": [
+          {
+            "astId": 896,
+            "contract": "contracts/Contract4October/Employee.sol:Employee",
+            "label": "employeeIndex",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 898,
+            "contract": "contracts/Contract4October/Employee.sol:Employee",
+            "label": "name",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 900,
+            "contract": "contracts/Contract4October/Employee.sol:Employee",
+            "label": "position",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage"
+          }
+        ],
+        "numberOfBytes": "96"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
