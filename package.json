@@ -11,7 +11,8 @@
     "deploy": "npx hardhat deploy",
     "simulate": "npx hardhat node",
     "script": "npx hardhat run",
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "verify": "npx hardhat etherscan-verify"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

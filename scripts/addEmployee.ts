@@ -14,7 +14,12 @@ async function main() {
   // add employee
   const addEmployee = await employee
     .connect(owner)
-    .addEmployee(employee1.address, 'Caesar', 'Programmer');
+    .addEmployee(employee1.address, 'Budi', 'Programmer', {
+      gasPrice: 2000000000, // 2 gwei
+      gasLimit: 500000, // max: 19,000,000 gas
+      // nonce: 12 // transaction count
+      // value: 1000000000000000000 // 1 ether = 1e18 wei
+    });
   await addEmployee.wait();
 
   employeeLength = await employee.employeeLength();

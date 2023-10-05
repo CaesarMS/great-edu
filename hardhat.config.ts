@@ -7,7 +7,15 @@ import 'hardhat-contract-sizer';
 import 'hardhat-prettier';
 
 dotenv.config();
-const { MNEMONIC, MNEMONIC_GANACHE } = process.env;
+const {
+  MNEMONIC,
+  MNEMONIC_GANACHE,
+  RPC_MUMBAI,
+  PRIVKEY1,
+  PRIVKEY2,
+  PRIVKEY3,
+  ETHERSCAN_APIKEY_POLYGON,
+} = process.env;
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -37,6 +45,16 @@ const config: HardhatUserConfig = {
       url: 'http://127.0.0.1:7545',
       accounts: {
         mnemonic: MNEMONIC_GANACHE,
+      },
+    },
+    mumbai: {
+      chainId: 80001,
+      url: RPC_MUMBAI,
+      accounts: [PRIVKEY1!, PRIVKEY2!, PRIVKEY3!],
+      verify: {
+        etherscan: {
+          apiKey: ETHERSCAN_APIKEY_POLYGON,
+        },
       },
     },
   },

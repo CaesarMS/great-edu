@@ -1,0 +1,38 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Contract4October/AttendanceBook.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.13;\n\nimport './interface/IEmployee.sol';\n\ncontract AttendanceBook {\n    uint256 public start; // format epoch, satuan dalam detik\n    uint256 public end;\n    uint256 public attendanceLength;\n    address public employeeContract;\n\n    mapping(address => bool) public isAttend;\n\n    modifier onlyEmployee() {\n        require(\n            IEmployee(employeeContract).isEmployeeExist(msg.sender),\n            'not an employee'\n        );\n        _;\n    }\n\n    constructor(address _employeeContract, uint256 _start, uint256 _end) {\n        employeeContract = _employeeContract;\n        start = _start;\n        end = _end;\n    }\n\n    function attend() external onlyEmployee {\n        require(\n            block.timestamp > start && block.timestamp < end,\n            'not in datetime range'\n        );\n        isAttend[msg.sender] = true;\n        attendanceLength += 1;\n    }\n\n    function attendancePercentage() external view returns (uint256) {\n        uint256 totalEmployee = IEmployee(employeeContract).employeeLength();\n\n        return (attendanceLength * 100) / totalEmployee;\n    }\n}\n"
+    },
+    "contracts/Contract4October/interface/IEmployee.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.13;\n\ninterface IEmployee {\n    function employeeLength() external view returns (uint256);\n\n    function isEmployeeExist(address _employee) external view returns (bool);\n\n    function addEmployee(\n        address _employee,\n        string calldata _name,\n        string calldata _position\n    ) external;\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
